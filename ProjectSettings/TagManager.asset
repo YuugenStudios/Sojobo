@@ -15,9 +15,9 @@ TagManager:
   - 
   - 
   - Grapple
-  - 
-  - 
-  - 
+  - enemy
+  - player
+  - obstaculos
   - 
   - 
   - 
