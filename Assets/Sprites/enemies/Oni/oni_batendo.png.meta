@@ -4,10 +4,10 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -1938770277838731703
-    second: oni_batendo_0
+    second: oni_batendo_2
   - first:
       213: -4343909532840694833
-    second: oni_batendo_1
+    second: oni_batendo_2
   - first:
       213: -7841397661123660010
     second: oni_batendo_2
@@ -22,13 +22,52 @@ TextureImporter:
     second: oni_batendo_5
   - first:
       213: -4184536752751543193
-    second: oni_batendo_6
+    second: oni_batendo_2
   - first:
       213: 8018610314885304480
     second: oni_batendo_7
   - first:
       213: 5857597977516488898
     second: oni_batendo_8
+  - first:
+      213: -7203794448495034960
+    second: oni_batendo_2
+  - first:
+      213: 8081243988640574987
+    second: oni_batendo_4
+  - first:
+      213: 389377859966995050
+    second: oni_batendo_5
+  - first:
+      213: -976988117238672416
+    second: oni_batendo_7
+  - first:
+      213: -7702416707302405909
+    second: oni_batendo_8
+  - first:
+      213: 1051940025481956323
+    second: oni_batendo_2
+  - first:
+      213: 4884436950581316324
+    second: oni_batendo_2
+  - first:
+      213: -6185939033846890662
+    second: oni_batendo_2
+  - first:
+      213: 3632234208808637163
+    second: oni_batendo_3
+  - first:
+      213: -7695947864314450605
+    second: oni_batendo_9
+  - first:
+      213: 4884436950581316324
+    second: oni_batendo_0
+  - first:
+      213: -6185939033846890662
+    second: oni_batendo_1
+  - first:
+      213: 1051940025481956323
+    second: oni_batendo_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -150,6 +189,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+      name: oni_batendo_4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 427
+        width: 294
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0eae266798562070800000000000000
+      internalID: 8081243988640574987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oni_batendo_5
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 424
+        width: 383
+        height: 374
+      alignment: 9
+      pivot: {x: 0.46761024, y: 0.40997085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a0cb2c919576500800000000000000
+      internalID: 389377859966995050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oni_batendo_7
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 7
+        width: 203
+        height: 406
+      alignment: 9
+      pivot: {x: 0.62221706, y: 0.38214755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e31632db7a0172f0800000000000000
+      internalID: -976988117238672416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oni_batendo_8
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 7
+        width: 196
+        height: 406
+      alignment: 9
+      pivot: {x: 0.60849935, y: 0.38214755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8c43950d48b1590800000000000000
+      internalID: -7702416707302405909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oni_batendo_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7
+        width: 357
+        height: 308
+      alignment: 9
+      pivot: {x: 0.6439563, y: 0.48304227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb0ed731ed399e00800000000000000
+      internalID: 1051940025481956323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: oni_batendo_0
       rect:
         serializedVersion: 2
@@ -158,14 +302,14 @@ TextureImporter:
         width: 294
         height: 301
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 946465054ba1815e0800000000000000
-      internalID: -1938770277838731703
+      spriteID: 4ea0137178109c340800000000000000
+      internalID: 4884436950581316324
       vertices: []
       indices: 
       edges: []
@@ -179,35 +323,14 @@ TextureImporter:
         width: 294
         height: 301
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcbe89e7b4557b3c0800000000000000
-      internalID: -4343909532840694833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oni_batendo_2
-      rect:
-        serializedVersion: 2
-        x: 1029
-        y: 847
-        width: 294
-        height: 301
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 617352a6f52cd2390800000000000000
-      internalID: -7841397661123660010
+      spriteID: a5f35552931272aa0800000000000000
+      internalID: -6185939033846890662
       vertices: []
       indices: 
       edges: []
@@ -221,119 +344,35 @@ TextureImporter:
         width: 294
         height: 301
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c950bdafe8bb2690800000000000000
-      internalID: -7625798204471092800
+      spriteID: be29f0db4c9486230800000000000000
+      internalID: 3632234208808637163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oni_batendo_4
+      name: oni_batendo_2
       rect:
         serializedVersion: 2
-        x: 567
-        y: 427
+        x: 1029
+        y: 847
         width: 294
         height: 301
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48b44a090ec2b8ab0800000000000000
-      internalID: -5004857217881191548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oni_batendo_5
-      rect:
-        serializedVersion: 2
-        x: 1043
-        y: 427
-        width: 336
-        height: 371
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 853bda958874d3e60800000000000000
-      internalID: 7943583968697103192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oni_batendo_6
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 7
-        width: 357
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76c7da67ef98de5c0800000000000000
-      internalID: -4184536752751543193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oni_batendo_7
-      rect:
-        serializedVersion: 2
-        x: 574
-        y: 7
-        width: 203
-        height: 406
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a09503d893d74f60800000000000000
-      internalID: 8018610314885304480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oni_batendo_8
-      rect:
-        serializedVersion: 2
-        x: 1043
-        y: 7
-        width: 196
-        height: 406
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c8baee535e5a4150800000000000000
-      internalID: 5857597977516488898
+      spriteID: 617352a6f52cd2390800000000000000
+      internalID: -7841397661123660010
       vertices: []
       indices: 
       edges: []
