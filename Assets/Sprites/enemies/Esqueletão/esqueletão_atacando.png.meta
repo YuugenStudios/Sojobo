@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: 3796ca5fe037c9e4e8a7f75c7096a9d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4206673953769418950
+    second: "esquelet\xE3o_atacando_0"
+  - first:
+      213: -8805910174095055563
+    second: "esquelet\xE3o_atacando_1"
+  - first:
+      213: -4328831680731573539
+    second: "esquelet\xE3o_atacando_2"
+  - first:
+      213: -7287996678492755152
+    second: "esquelet\xE3o_atacando_3"
+  - first:
+      213: -1752168554758076465
+    second: "esquelet\xE3o_atacando_4"
+  - first:
+      213: 1723197584656861267
+    second: "esquelet\xE3o_atacando_5"
+  - first:
+      213: 7143131911571671593
+    second: "esquelet\xE3o_atacando_6"
+  - first:
+      213: 8270087315553882694
+    second: "esquelet\xE3o_atacando_7"
+  - first:
+      213: -3584354653742108541
+    second: "esquelet\xE3o_atacando_8"
+  - first:
+      213: 7553206495627375000
+    second: "esquelet\xE3o_atacando_9"
+  - first:
+      213: -4877936396617289983
+    second: "esquelet\xE3o_atacando_10"
+  - first:
+      213: 7684314221982664259
+    second: "esquelet\xE3o_atacando_11"
+  - first:
+      213: 5983448761320253454
+    second: "esquelet\xE3o_atacando_12"
+  - first:
+      213: -4043497119517783498
+    second: "esquelet\xE3o_atacando_13"
+  - first:
+      213: -7141184697882513302
+    second: "esquelet\xE3o_atacando_14"
+  - first:
+      213: 8781324979279175953
+    second: "esquelet\xE3o_atacando_15"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_0"
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 3386
+        width: 600
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f8fa3b354ee95c0800000000000000
+      internalID: -4206673953769418950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_1"
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 3386
+        width: 600
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535e0153a5f1bc580800000000000000
+      internalID: -8805910174095055563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_2"
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 2903
+        width: 600
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd299818586ece3c0800000000000000
+      internalID: -4328831680731573539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_3"
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 2903
+        width: 600
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b663662a5dbda90800000000000000
+      internalID: -7287996678492755152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_4"
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 2420
+        width: 600
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7090b9bfb0fa7e0800000000000000
+      internalID: -1752168554758076465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_5"
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 2420
+        width: 600
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3588847c2170ae710800000000000000
+      internalID: 1723197584656861267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_6"
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1937
+        width: 585
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a8cfca0a0812360800000000000000
+      internalID: 7143131911571671593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_7"
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1937
+        width: 816
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6429d01c89045c270800000000000000
+      internalID: 8270087315553882694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_8"
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1454
+        width: 1139
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380fea2ee60d14ec0800000000000000
+      internalID: -3584354653742108541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_9"
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1454
+        width: 1250
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891fa070a4162d860800000000000000
+      internalID: 7553206495627375000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_10"
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 971
+        width: 1250
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f6da211b61e4cb0800000000000000
+      internalID: -4877936396617289983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_11"
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 971
+        width: 1209
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34642c7521b24aa60800000000000000
+      internalID: 7684314221982664259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_12"
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 488
+        width: 899
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08ae3e52fa790350800000000000000
+      internalID: 5983448761320253454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_13"
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 488
+        width: 620
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ac3dc0bcc92e7c0800000000000000
+      internalID: -4043497119517783498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_14"
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 5
+        width: 585
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60f1475a5a65ec90800000000000000
+      internalID: -7141184697882513302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "esquelet\xE3o_atacando_15"
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 5
+        width: 600
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111233f0b888dd970800000000000000
+      internalID: 8781324979279175953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
