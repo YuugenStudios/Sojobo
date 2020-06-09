@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
+  - Tanuki
+  - Lava
+  - TanukiBack
+  - LavaBack
   layers:
   - Default
   - TransparentFX

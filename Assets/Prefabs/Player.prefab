@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 238251895643807223}
   - component: {fileID: 238251895643807225}
   - component: {fileID: 238251895643807224}
+  - component: {fileID: -7826491968911881783}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -199,6 +200,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 238251895643807217}
   jumpForce: 750
+  coin: 0
+  strength: 0
+  health: 0
+  MaxHealth: 100
+  layerSave:
+    serializedVersion: 2
+    m_Bits: 0
   anim: {fileID: 238251895643807222}
 --- !u!114 &238251895643807221
 MonoBehaviour:
@@ -272,6 +280,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   SwordDamage: 20
+--- !u!114 &-7826491968911881783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238251895643807183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a949e1c22b78363408c360a033fa78e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &238251896824992723
 GameObject:
   m_ObjectHideFlags: 0

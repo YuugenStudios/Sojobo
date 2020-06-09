@@ -42,6 +42,7 @@ public class PlayerAttack : MonoBehaviour
         if(attackPoint == null){
             return;
         }
-        Gizmos.DrawWireSphere(attackPoint.position,rangeAttack); //vai desenhar  um círculo no editor na posição do atackPoint e com o raio do rangeAttack
+        Gizmos.DrawWireSphere(attackPoint.position,rangeAttack);
+        //Gizmos.DrawWireSphere(attackPoint.position* -1,rangeAttack); //vai desenhar  um círculo no editor na posição do atackPoint e com o raio do rangeAttack
     }
 }

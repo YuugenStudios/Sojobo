@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/caveLava.unity
+    guid: d2aceef16e144164aae5134855782026
+  - enabled: 1
+    path: Assets/Scenes/caveTanuki.unity
+    guid: 9aa52f1a60c21e645af6ca018b5a6519
+  - enabled: 1
+    path: Assets/Scenes/MainCave.unity
+    guid: a1de994e2ba2c9a4986fe7461f40f43d
+  - enabled: 1
+    path: Assets/Scenes/Mountain.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
