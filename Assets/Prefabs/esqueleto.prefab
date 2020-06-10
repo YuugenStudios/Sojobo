@@ -95,7 +95,7 @@ Animator:
   m_GameObject: {fileID: 849494073641539917}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8b483c5a7e2e9dc4eb7c75a4172c3d66, type: 2}
+  m_Controller: {fileID: 9100000, guid: 808b49f3924499642bb672f37adfcd5e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -118,7 +118,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eskeleton: {fileID: 4353133956287108686}
   faceWaitTime: 1
-  bone: {fileID: 399134887166422262, guid: 76ca103fef840944fbc26193c718bf55, type: 3}
+  left: 0
+  bone: {fileID: 669979712760244596, guid: 1d755911346c1f44c9df40674bc72862, type: 3}
   anim: {fileID: 764543447683948108}
   boneShooter: {fileID: 1290619624886694141}
   playerMask:

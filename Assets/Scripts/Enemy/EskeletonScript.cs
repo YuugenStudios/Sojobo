@@ -9,8 +9,7 @@ public class EskeletonScript : MonoBehaviour
   bool attacking = false;
   public float faceWaitTime;
   bool turn = true;
-  public bool left = true;
-  public static bool lefty;
+  public bool left;
 
   [Header("Shoot")]
   public GameObject bone;
@@ -30,8 +29,6 @@ public class EskeletonScript : MonoBehaviour
     /*if (!attacking && turn) {
       StartCoroutine(changeLookDirection(faceWaitTime));
     }*/
-
-    lefty = left;
 
     if (left) {
       hit = Physics2D.Raycast(transform.position, -transform.right, raycastDistance, playerMask);
