@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 8dca4e60b47908e45a53d323f4feca48
+  - enabled: 1
     path: Assets/Scenes/caveLava.unity
     guid: d2aceef16e144164aae5134855782026
   - enabled: 1
