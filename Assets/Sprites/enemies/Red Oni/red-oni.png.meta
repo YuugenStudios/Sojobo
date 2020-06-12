@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: f85c8431161dafb47843f0f5cb937b19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2429342264037776775
+    second: red-oni_0
+  - first:
+      213: -3946541191066165819
+    second: red-oni_1
+  - first:
+      213: -2881790824374559205
+    second: red-oni_2
+  - first:
+      213: 3209986649420793439
+    second: red-oni_3
+  - first:
+      213: -4076533516820433640
+    second: red-oni_4
+  - first:
+      213: 858200241975872222
+    second: red-oni_5
+  - first:
+      213: -5338690462801268270
+    second: red-oni_6
+  - first:
+      213: -7781939142856649067
+    second: red-oni_7
+  - first:
+      213: -232211824771830169
+    second: red-oni_8
+  - first:
+      213: -5783165016789574118
+    second: red-oni_9
+  - first:
+      213: 1867558613030499610
+    second: red-oni_10
+  - first:
+      213: 9168392193647521914
+    second: red-oni_11
+  - first:
+      213: 2818303942981275723
+    second: red-oni_12
+  - first:
+      213: 5479858378997693926
+    second: red-oni_13
+  - first:
+      213: -4806477774550036277
+    second: red-oni_0
+  - first:
+      213: 8203304617657182507
+    second: red-oni_1
+  - first:
+      213: -1761724842391643399
+    second: red-oni_2
+  - first:
+      213: 4938598222685284376
+    second: red-oni_3
+  - first:
+      213: -6754767792911997184
+    second: red-oni_4
+  - first:
+      213: 4649480592434756220
+    second: red-oni_5
+  - first:
+      213: -1768177183302874379
+    second: red-oni_6
+  - first:
+      213: 4957704160325800545
+    second: red-oni_7
+  - first:
+      213: -5918179495171333862
+    second: red-oni_8
+  - first:
+      213: -8429139158892689704
+    second: red-oni_9
+  - first:
+      213: 4768555420270106351
+    second: red-oni_10
+  - first:
+      213: -3681804103199360236
+    second: red-oni_11
+  - first:
+      213: 2947870194485884420
+    second: red-oni_12
+  - first:
+      213: 5930899387203913218
+    second: red-oni_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red-oni_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 524
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0922b0ee5fb4db0800000000000000
+      internalID: -4806477774550036277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-oni_1
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 0
+        width: 524
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2927c7361ef7d170800000000000000
+      internalID: 8203304617657182507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-oni_2
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 0
+        width: 524
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fad34107981d87e0800000000000000
+      internalID: -1761724842391643399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-oni_3
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 0
+        width: 524
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818288feaec698440800000000000000
+      internalID: 4938598222685284376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-oni_4
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 0
+        width: 524
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0072b3b0b7e3242a0800000000000000
+      internalID: -6754767792911997184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-oni_5
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 0
+        width: 524
+        height: 580
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a752ef6f5468040800000000000000
+      internalID: 4649480592434756220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-oni_6
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 0
+        width: 524
+        height: 580
+      alignment: 9
+      pivot: {x: 0.49400738, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa0841583c2677e0800000000000000
+      internalID: -1768177183302874379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-oni_7
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 0
+        width: 524
+        height: 580
+      alignment: 9
+      pivot: {x: 0.48492107, y: 0.49957427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16212b1baad4dc440800000000000000
+      internalID: 4957704160325800545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-oni_8
+      rect:
+        serializedVersion: 2
+        x: 4192
+        y: 0
+        width: 524
+        height: 580
+      alignment: 9
+      pivot: {x: 0.47814196, y: 0.49941915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11ef41ea176edda0800000000000000
+      internalID: -5918179495171333862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-oni_9
+      rect:
+        serializedVersion: 2
+        x: 4718
+        y: 0
+        width: 524
+        height: 580
+      alignment: 9
+      pivot: {x: 0.4673094, y: 0.49861014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6cddf289ea50b80800000000000000
+      internalID: -8429139158892689704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-oni_10
+      rect:
+        serializedVersion: 2
+        x: 5240
+        y: 0
+        width: 478
+        height: 580
+      alignment: 9
+      pivot: {x: 0.34098172, y: 0.49835667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe696fcc3ef4d2240800000000000000
+      internalID: 4768555420270106351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-oni_11
+      rect:
+        serializedVersion: 2
+        x: 5721
+        y: 0
+        width: 567
+        height: 580
+      alignment: 9
+      pivot: {x: 0.5313146, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bf938dcaa97ecc0800000000000000
+      internalID: -3681804103199360236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-oni_12
+      rect:
+        serializedVersion: 2
+        x: 6288
+        y: 0
+        width: 524
+        height: 580
+      alignment: 9
+      pivot: {x: 0.6000231, y: 0.49457803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406fa4ac250f8e820800000000000000
+      internalID: 2947870194485884420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-oni_13
+      rect:
+        serializedVersion: 2
+        x: 6999
+        y: 0
+        width: 281
+        height: 580
+      alignment: 9
+      pivot: {x: 0.437182, y: 0.5060867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edfa93892e5c0c40800000000000000
+      internalID: 5479858378997693926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

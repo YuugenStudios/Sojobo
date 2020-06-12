@@ -25,7 +25,9 @@ public class PlayerBehaviour : MonoBehaviour
   }
   void Update() {
     inputSpeed = Input.GetAxis("Horizontal");
-    rb.velocity = new Vector2(inputSpeed * speed, rb.velocity.y);
+    if (!Dash.dashing) {
+      rb.velocity = new Vector2(inputSpeed * speed, rb.velocity.y);
+    }
 
     if (Input.GetButtonDown("Jump") && isGrounded) {
       jump();
