@@ -11,16 +11,24 @@ public class PlayerBehaviour : MonoBehaviour
   public static float inputSpeed;
   public float jumpForce = 600;
 
-  [Header("Save System")]
-  public int coin;
+  [Header("Save System + HealthBar")]
   public int strength;
+  public int MaxStrength = 100;
   public int health;
   public int MaxHealth = 100;
+  public LifeBar lifeBar;
+  public MagicBar magicBar;
+
+  public int coin;
   public LayerMask layerSave;
 
   [Header("animation")]
   public Animator anim;
   void Start() {
+    health = MaxHealth;
+    strength = MaxStrength;
+    lifeBar.setMaxHealth(MaxHealth);
+    magicBar.setMaxStrength(MaxStrength);
     LoadPlayer();
   }
   void Update() {
@@ -42,8 +50,8 @@ public class PlayerBehaviour : MonoBehaviour
       GetComponent<Transform>().localScale = new Vector3(-0.743799f, 0.743799f, 0.743799f);
     }
 
-    RaycastHit2D ray = Physics2D.Raycast(transform.position, Vector2.down, 1, layerSave);
-    if ( ray && Input.GetKeyDown(KeyCode.R)) {
+    //RaycastHit2D ray = Physics2D.Raycast(transform.position, Vector2.down, 1, layerSave);
+    if (  Input.GetKeyDown(KeyCode.R)) {
       SavePlayer();
       Debug.Log("Salvo!");
     }
@@ -56,9 +64,16 @@ public class PlayerBehaviour : MonoBehaviour
       }
       isGrounded = true;
     }
-  }
 
-  public void SavePlayer() {
+    else if (other.gameObject.layer == 9)
+        {
+            health -= 5;
+            lifeBar.setHealth(health);
+        }
+    }
+   
+
+        public void SavePlayer() {
     Save.SavePlayer(this);
   }
   public void LoadPlayer() {
@@ -73,7 +88,9 @@ public class PlayerBehaviour : MonoBehaviour
     health = data.health;
     coin = data.coin;
     strength = data.strength;
-  }
+    lifeBar.setHealth(health);
+    magicBar.setStrength(strength);
+    }
 
   void jump() {
     rb.velocity = new Vector2(0, 0);
@@ -81,4 +98,6 @@ public class PlayerBehaviour : MonoBehaviour
     isGrounded = false;
     anim.SetTrigger("Jump");
   }
+
+    
 }

@@ -9,6 +9,7 @@ public class PlayerData
     public int health;
     public int coin;
     public int strength;
+   
 
     public PlayerData(PlayerBehaviour player)
     {
@@ -20,6 +21,9 @@ public class PlayerData
         health = player.health;
         coin = player.coin;
         strength = player.strength;
+        
     }
     
+
+
 }
