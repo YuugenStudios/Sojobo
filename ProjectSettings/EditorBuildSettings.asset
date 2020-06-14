@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/theEnd.unity
     guid: ecc4f8e3044d9494080253ecc38db832
+  - enabled: 1
+    path: Assets/Scenes/caveLava/EndGameScene.unity
+    guid: 1ea94d2278372334ea19e877f4932bda
   m_configObjects: {}

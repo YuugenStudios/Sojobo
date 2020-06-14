@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerBehaviour : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PlayerBehaviour : MonoBehaviour
   bool isGrounded = true;
   public static float inputSpeed;
   public float jumpForce = 600;
+  public float knockbackForce = 2;
 
   [Header("Save System + HealthBar")]
   public int strength;
@@ -18,9 +20,13 @@ public class PlayerBehaviour : MonoBehaviour
   public int MaxHealth = 100;
   public LifeBar lifeBar;
   public MagicBar magicBar;
+  public bool isDead = false;
 
   public int coin;
   public LayerMask layerSave;
+
+  [Header("Upgrade")] 
+    public bool hasDoubleJump = false;
 
   [Header("animation")]
   public Animator anim;
@@ -32,6 +38,7 @@ public class PlayerBehaviour : MonoBehaviour
     LoadPlayer();
   }
   void Update() {
+    print(inputSpeed);
     inputSpeed = Input.GetAxis("Horizontal");
     if (!Dash.dashing) {
       rb.velocity = new Vector2(inputSpeed * speed, rb.velocity.y);
@@ -65,17 +72,30 @@ public class PlayerBehaviour : MonoBehaviour
       isGrounded = true;
     }
 
-    else if (other.gameObject.layer == 9)
+    else if (other.gameObject.layer == 9 || other.gameObject.layer == 12)
         {
             health -= 5;
             lifeBar.setHealth(health);
+            KnockBack();
+        }
+    }
+
+    void KnockBack() {
+      //play the animation of hurting
+        if (inputSpeed < 0)
+        {
+             rb.AddForce(new Vector2(-knockbackForce, knockbackForce));
+        }
+        else if (inputSpeed > 0 )
+        {
+            rb.AddForce(new Vector2(-knockbackForce, knockbackForce));
         }
     }
    
 
-        public void SavePlayer() {
-    Save.SavePlayer(this);
-  }
+      public void SavePlayer() {
+      Save.SavePlayer(this);
+      }
   public void LoadPlayer() {
     PlayerData data = Save.LoadPlayer();
 
@@ -92,6 +112,10 @@ public class PlayerBehaviour : MonoBehaviour
     magicBar.setStrength(strength);
     }
 
+  
+  
+  
+
   void jump() {
     rb.velocity = new Vector2(0, 0);
     rb.AddForce(new Vector2(0, jumpForce));
@@ -99,5 +123,10 @@ public class PlayerBehaviour : MonoBehaviour
     anim.SetTrigger("Jump");
   }
 
+  void dead() {
+    if(health <= 0) {
+      SceneManager.LoadScene("EndGameScene");
+    }
+  }
     
 }
