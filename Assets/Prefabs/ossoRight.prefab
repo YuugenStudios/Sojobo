@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 836122009129292096}
   - component: {fileID: 3238975626929012645}
   - component: {fileID: 205752439818707334}
+  - component: {fileID: 248003172942635068}
   m_Layer: 0
   m_Name: ossoRight
   m_TagString: Untagged
@@ -139,3 +140,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 3238975626929012645}
   velocity: 11
+--- !u!114 &248003172942635068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669979712760244596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24dc989076b2dd54c85ca0d0ca744539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 20

@@ -160,7 +160,7 @@ MonoBehaviour:
   obstaculos:
     serializedVersion: 2
     m_Bits: 2048
-  distance: 0.9
+  distance: 0.64
 --- !u!114 &9013341849937733035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,4 +173,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24dc989076b2dd54c85ca0d0ca744539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 100
+  MaxHealth: 40
