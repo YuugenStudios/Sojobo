@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -400,19 +400,19 @@ MonoBehaviour:
   textDisplay: {fileID: 478667033}
   frases:
   - "KATSU: I finally feel the power in my hands. All thanks to you, my \u201Cfriend\u201D  "
-  - 'SOJOBO: WHAT!?'
+  - WHAT!?
   - 'KATSU: While you were celebrating the success of your revenge, I was bathed
     in the blood of my family and my clan.'
-  - "When i came back from the trip, they were not there. At least\u2026 not alive.
-    Thanks to your inconsequential rage."
-  - And in tears, all the hope was gone.
-  - But when i was ready to give up, the moon came to me and showed me that i can
-    restore my family
-  - "I\u2019ve waited so long for this opportunity, and you easily fell for it, and
-    brought just for me."
-  - "Now, with this power, i\u2019ll complete my mission. Even a God must respect
-    the justice."
-  - But before, i will punish the cause of all my problems!
+  - "KATSU: When i came back from the trip, they were not there. At least\u2026 not
+    alive. Thanks to your inconsequential rage."
+  - 'KATSU: And in tears, all the hope was gone.'
+  - 'KATSU: But when i was ready to give up, the moon came to me and showed me that
+    i can restore my family'
+  - "KATSU: I\u2019ve waited so long for this opportunity, and you easily fell for
+    it, and brought just for me."
+  - "KATSU: Now, with this power, i\u2019ll complete my mission. Even a God must
+    respect the justice."
+  - 'KATSU: But before, i will punish the cause of all my problems!'
   player: {fileID: 365545729}
   inimigo: {fileID: 1583347611}
   barra: {fileID: 877521623}
@@ -467,7 +467,7 @@ PrefabInstance:
     - target: {fileID: 7757755688030472297, guid: 8abea85446c239247a638a94597d176f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.6800001
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7757755688030472297, guid: 8abea85446c239247a638a94597d176f,
         type: 3}

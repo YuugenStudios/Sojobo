@@ -22,8 +22,6 @@ public class SistemaDialogo : MonoBehaviour
 
 
 
-
-
     void Start()
     {
         (player.GetComponent(PlayerBehaviour) as MonoBehaviour).enabled = false;
