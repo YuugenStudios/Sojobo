@@ -38,7 +38,6 @@ public class PlayerBehaviour : MonoBehaviour
     LoadPlayer();
   }
   void Update() {
-    print(inputSpeed);
     inputSpeed = Input.GetAxis("Horizontal");
     if (!Dash.dashing) {
       rb.velocity = new Vector2(inputSpeed * speed, rb.velocity.y);

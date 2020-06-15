@@ -1,19 +1,43 @@
 fileFormatVersion: 2
-guid: e0f41b3f3bba8f44cbff4bc78df8bbb2
+guid: e0d69a0ad49d98146af723d43575e5c1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2503137534614923627
-    second: katsuIdle_0
+      213: -7120597737078067688
+    second: amigo desamigo clone_0
   - first:
-      213: -857056355731257901
-    second: katsuIdle_1
+      213: 764081746258162234
+    second: amigo desamigo clone_1
   - first:
-      213: 9079244611465580976
-    second: katsuIdle_2
+      213: -5575977912619372499
+    second: amigo desamigo clone_2
   - first:
-      213: -3429360454143840731
-    second: katsuIdle_3
+      213: 5361731305115616849
+    second: amigo desamigo clone_3
+  - first:
+      213: -8789553877679252868
+    second: amigo desamigo clone_0
+  - first:
+      213: -1739831488488904815
+    second: amigo desamigo clone_1
+  - first:
+      213: -7243545949778730214
+    second: amigo desamigo clone_2
+  - first:
+      213: -2483303191292337438
+    second: amigo desamigo clone_3
+  - first:
+      213: 6537104509673793103
+    second: katsu_0
+  - first:
+      213: 1881688677565623215
+    second: katsu_1
+  - first:
+      213: 1463419882185972285
+    second: katsu_2
+  - first:
+      213: 214355502619175752
+    second: katsu_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -95,17 +119,53 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: katsuIdle_0
+      name: katsu_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 56
-        width: 23
-        height: 49
+        x: 140
+        y: 560
+        width: 230
+        height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5969459aca1134dd0800000000000000
-      internalID: -2503137534614923627
+      spriteID: f46e5be9ae578ba50800000000000000
+      internalID: 6537104509673793103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: katsuIdle_1
+      name: katsu_1
       rect:
         serializedVersion: 2
-        x: 52
-        y: 56
-        width: 23
-        height: 48
+        x: 520
+        y: 560
+        width: 230
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d5c52c09cf1b14f0800000000000000
-      internalID: -857056355731257901
+      spriteID: fab6c24f1e91d1a10800000000000000
+      internalID: 1881688677565623215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: katsuIdle_2
+      name: katsu_2
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1
-        width: 23
-        height: 49
+        x: 140
+        y: 10
+        width: 230
+        height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b11947ced4fffd70800000000000000
-      internalID: 9079244611465580976
+      spriteID: d3a50fa11ac1f4410800000000000000
+      internalID: 1463419882185972285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: katsuIdle_3
+      name: katsu_3
       rect:
         serializedVersion: 2
-        x: 52
-        y: 1
-        width: 23
-        height: 50
+        x: 520
+        y: 10
+        width: 230
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52eebf326d67860d0800000000000000
-      internalID: -3429360454143840731
+      spriteID: 84b2445a13b89f200800000000000000
+      internalID: 214355502619175752
       vertices: []
       indices: 
       edges: []
