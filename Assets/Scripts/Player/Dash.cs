@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,6 +19,7 @@ public class Dash : MonoBehaviour {
   }
 
   IEnumerator dashCoroutine(float lado) {
+    FindObjectOfType<AudioManager>().Play("dash");
     dashing = true;
     animator.SetTrigger("Dash");
     rigidbody.velocity = new Vector2(rigidbody.velocity.x, 0f);

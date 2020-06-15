@@ -13,7 +13,8 @@ public class PlayerAttack : MonoBehaviour
 
   void Update() {
     if (Input.GetKeyDown(KeyCode.LeftShift)) {
-      StartCoroutine(Attack());
+           FindObjectOfType<AudioManager>().Play("espadaSom");
+            StartCoroutine(Attack());
     }
   }
 
@@ -31,7 +32,8 @@ public class PlayerAttack : MonoBehaviour
     Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, rangeAttack, enimelayers); // cria um círculo na posição do attackPoint com um raio do rangeAttack e detecta as ccolisões no layer enimeLayers
 
     foreach (Collider2D enemy in hitEnemies) {
-      enemy.GetComponent<Enemy>().TakeDamage(SwordDamage);
+            FindObjectOfType<AudioManager>().Play("danoInimigo");
+            enemy.GetComponent<Enemy>().TakeDamage(SwordDamage);
     }
   }
   void OnDrawGizmosSelected()  {

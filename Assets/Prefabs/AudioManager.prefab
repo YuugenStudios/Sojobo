@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7101698918790479161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7101698918790479163}
+  - component: {fileID: 7101698918790479162}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7101698918790479163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101698918790479161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7101698918790479162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7101698918790479161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c27f05f998855f04f9cdbb40a357665f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: danoSojobo
+    clip: {fileID: 8300000, guid: b1084c6fe39e22344a5ba4b7ca0f2f6a, type: 3}
+    volume: 5
+    pitch: 3
+    source: {fileID: 0}
+  - name: espadaSom
+    clip: {fileID: 8300000, guid: 6852ea017331eb741a91fbfd6e951fa0, type: 3}
+    volume: 5
+    pitch: 3
+    source: {fileID: 0}
+  - name: dash
+    clip: {fileID: 8300000, guid: 6cba6120ecb47dd49b1c9ea118e429cb, type: 3}
+    volume: 5
+    pitch: 3
+    source: {fileID: 0}
+  - name: danoInimigo
+    clip: {fileID: 8300000, guid: 3b6f4a239ca69614392a73d409b066d2, type: 3}
+    volume: 5
+    pitch: 3
+    source: {fileID: 0}
+  - name: oniBatida
+    clip: {fileID: 8300000, guid: 92f342b273f5829439c14c641ec6a5e8, type: 3}
+    volume: 5
+    pitch: 3
+    source: {fileID: 0}
+  - name: musicaBoss
+    clip: {fileID: 8300000, guid: f48c4b3ddc8ae5b4ea31ce321d795b05, type: 3}
+    volume: 5
+    pitch: 3
+    source: {fileID: 0}
+  - name: musicaCutscene
+    clip: {fileID: 8300000, guid: 67e2ecf1caa64ba42992530d26b6f6f6, type: 3}
+    volume: 5
+    pitch: 3
+    source: {fileID: 0}
+  - name: musicaCreditos
+    clip: {fileID: 8300000, guid: a07cbfd5c939eae4a97ee592ed0d852b, type: 3}
+    volume: 5
+    pitch: 3
+    source: {fileID: 0}
+  - name: Lava
+    clip: {fileID: 8300000, guid: 6a30a636cb314014fae5df8b58ca9665, type: 3}
+    volume: 5
+    pitch: 3
+    source: {fileID: 0}
+  - name: musicaLojinha
+    clip: {fileID: 8300000, guid: 7fe4e50c57f554c42b14f106c055c4e5, type: 3}
+    volume: 5
+    pitch: 3
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}

@@ -56,8 +56,8 @@ public class PlayerBehaviour : MonoBehaviour
       GetComponent<Transform>().localScale = new Vector3(-0.743799f, 0.743799f, 0.743799f);
     }
 
-    //RaycastHit2D ray = Physics2D.Raycast(transform.position, Vector2.down, 1, layerSave);
-    if (  Input.GetKeyDown(KeyCode.R)) {
+    RaycastHit2D ray = Physics2D.Raycast(transform.position, Vector2.down, 1, layerSave);
+    if (ray) {
       SavePlayer();
       Debug.Log("Salvo!");
     }
@@ -73,9 +73,27 @@ public class PlayerBehaviour : MonoBehaviour
 
     else if (other.gameObject.layer == 9 || other.gameObject.layer == 12)
         {
-            health -= 5;
-            lifeBar.setHealth(health);
-            KnockBack();
+            FindObjectOfType<AudioManager>().Play("danoSojobo");
+            if (other.gameObject.tag == "Oni")
+            {
+                health -= 30;
+                lifeBar.setHealth(health);
+                KnockBack();
+
+            }
+            else if (other.gameObject.tag == "RedOni")
+            {
+                health -= 35;
+                lifeBar.setHealth(health);
+                KnockBack();
+            }
+            else
+            {
+                health -= 15;
+                lifeBar.setHealth(health);
+                KnockBack();
+            }
+           
         }
     }
 

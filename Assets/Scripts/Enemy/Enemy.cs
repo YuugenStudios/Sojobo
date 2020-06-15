@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,8 +15,10 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int damage) {
         currentHealth -= damage;
+
         //animator.SetTrigger("hurt");
-        if(currentHealth <= 0) {
+        if (currentHealth <= 0) {
+            FindObjectOfType<AudioManager>().Play("danoInimigo");
             die();
         }
     }
