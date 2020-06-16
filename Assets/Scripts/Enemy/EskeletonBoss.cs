@@ -17,6 +17,7 @@ public class EskeletonBoss : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.collider.tag == "Player") {
+           // FindObjectOfType<AudioManager>().Play("danoSojobo");
             print("dano no player :)");
         }
     }

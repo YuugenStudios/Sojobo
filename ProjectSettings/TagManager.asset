@@ -4,12 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - ground
-  - Tanuki
-  - Lava
-  - TanukiBack
-  - LavaBack
   - health
+  - ground
+  - portal
   layers:
   - Default
   - TransparentFX
@@ -19,24 +16,19 @@ TagManager:
   - UI
   - 
   - 
-  - Grapple
-  - enemy
-  - player
-  - obstaculos
-  - espinhos
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - save
-  - Tanuki
-<<<<<<< HEAD
-  - breakble
-  - 
-=======
-  - arvore
-  - boss
->>>>>>> 5881607b9fffc9fff38fee6c8f3bae02c4f40e63
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 
