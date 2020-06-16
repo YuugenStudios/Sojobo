@@ -12,9 +12,10 @@ public class PlayerBehaviour : MonoBehaviour
   bool isGrounded = true;
   public static float inputSpeed;
   public float jumpForce = 600;
-  public float knockbackForce = 2;
+  public float knockbackForce = 20;
   public CapsuleCollider2D upCollider;
   public CapsuleCollider2D crawlCollider;
+  public bool hurting = false;
 
   [Header("Save System + HealthBar")]
   public static int strength;
@@ -31,13 +32,16 @@ public class PlayerBehaviour : MonoBehaviour
 
   [Header("Upgrade")] 
   public bool hasDoubleJump = false;
+  public static bool hasFlameSword = true;
+  public static bool hasBoneSword = true;
+
 
   [Header("animation")]
   public Animator anim;
 
   [SerializeField] private AudioSource musicaBoss;
 
-  public static bool calçado = false;
+  public static bool  calcado = false;
 
   void Start() {
     health = MaxHealth;
@@ -45,15 +49,15 @@ public class PlayerBehaviour : MonoBehaviour
     lifeBar.setMaxHealth(MaxHealth);
     magicBar.setMaxStrength(MaxStrength);
     LoadPlayer();
+
   }
   void Update() {
-    print(speed);
     lifeBar.setHealth(health);
     magicBar.setStrength(strength);
 
     inputSpeed = Input.GetAxis("Horizontal");
 
-    if (!Dash.dashing) {
+    if (!Dash.dashing && !hurting) {
       rb.velocity = new Vector2(inputSpeed * speed, rb.velocity.y);
     }
 
@@ -87,6 +91,8 @@ public class PlayerBehaviour : MonoBehaviour
       stopCrawl();
     }
 
+    dead();
+
   }
 
   void OnCollisionEnter2D(Collision2D other) {
@@ -117,10 +123,14 @@ public class PlayerBehaviour : MonoBehaviour
 
   void KnockBack() {
     //play the animation of hurting
+    hurting = true;
+    print("bati");
     if (inputSpeed < 0) {
       rb.AddForce(new Vector2(-knockbackForce, knockbackForce));
+      hurting = false;
     } else if (inputSpeed > 0 ) {
       rb.AddForce(new Vector2(-knockbackForce, knockbackForce));
+      hurting = true;
     }
   }
    

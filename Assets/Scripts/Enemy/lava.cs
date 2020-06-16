@@ -8,9 +8,16 @@ public class lava : MonoBehaviour {
   float nextDamage = 0;
 
   private void OnTriggerStay2D(Collider2D other) {
-    if (other.CompareTag("Player") && Time.time >= nextDamage && !PlayerBehaviour.calçado) {
+    if (other.CompareTag("Player") && Time.time >= nextDamage && !PlayerBehaviour.calcado) {
       PlayerBehaviour.health -= lavaDamage;
       nextDamage = Time.time + damageCooldown;
     }
+  }
+
+  void Update()
+  {
+      if(PlayerBehaviour.calcado) {
+        GetComponent<BoxCollider2D>().isTrigger = false;
+      }
   }
 }

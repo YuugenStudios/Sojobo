@@ -8,13 +8,14 @@ public class PlayerAttack : MonoBehaviour
   public Transform attackPoint;
   public float rangeAttack = 0.5f;
   public LayerMask enimelayers;
+  public KeyCode code;
 
   public int SwordDamage = 20;
 
   public 
 
   void Update() {
-    if (Input.GetKeyDown(KeyCode.LeftShift)) {
+    if (Input.GetKeyDown(code)) {
            FindObjectOfType<AudioManager>().Play("espadaSom");
             StartCoroutine(Attack());
     }
@@ -36,8 +37,15 @@ public class PlayerAttack : MonoBehaviour
     foreach (Collider2D enemy in hitEnemies) {
             FindObjectOfType<AudioManager>().Play("danoInimigo");
             enemy.GetComponent<Enemy>().TakeDamage(SwordDamage);
-            enemy.GetComponent<breakbleBehaviour>().TakeDamage(SwordDamage);
+            
     }
+
+  foreach (Collider2D enemy in hitEnemies) {
+            FindObjectOfType<AudioManager>().Play("danoInimigo");
+            enemy.GetComponent<breakbleBehaviour>().TakeDamage(SwordDamage);
+            
+    }
+   
   }
   void OnDrawGizmosSelected()  {
     if(attackPoint == null) {
