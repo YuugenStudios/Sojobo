@@ -11,6 +11,8 @@ public class PlayerAttack : MonoBehaviour
 
   public int SwordDamage = 20;
 
+  public 
+
   void Update() {
     if (Input.GetKeyDown(KeyCode.LeftShift)) {
            FindObjectOfType<AudioManager>().Play("espadaSom");
@@ -34,6 +36,7 @@ public class PlayerAttack : MonoBehaviour
     foreach (Collider2D enemy in hitEnemies) {
             FindObjectOfType<AudioManager>().Play("danoInimigo");
             enemy.GetComponent<Enemy>().TakeDamage(SwordDamage);
+            enemy.GetComponent<breakbleBehaviour>().TakeDamage(SwordDamage);
     }
   }
   void OnDrawGizmosSelected()  {

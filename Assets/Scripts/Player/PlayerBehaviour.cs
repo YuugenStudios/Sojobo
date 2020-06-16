@@ -26,7 +26,9 @@ public class PlayerBehaviour : MonoBehaviour
   public LayerMask layerSave;
 
   [Header("Upgrade")] 
-    public bool hasDoubleJump = false;
+    static public bool hasDoubleJump = false;
+    static public bool hasBoneSword = true;
+    static public bool hasFlamerSword = false;
 
   [Header("animation")]
   public Animator anim;
@@ -61,6 +63,8 @@ public class PlayerBehaviour : MonoBehaviour
       SavePlayer();
       Debug.Log("Salvo!");
     }
+
+    dead();
   }
 
   void OnCollisionEnter2D(Collision2D other) {
