@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 9499f71fa9721c341a68b607568b88fd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Korean Calligraphy
+  fontNames:
+  - Korean Calligraphy
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f1c51313f51180542a5410a75aef5e8d, type: 3}
+  - {fileID: 12800000, guid: 7a9511ec9184ffd49a1d0d1219ef83a0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

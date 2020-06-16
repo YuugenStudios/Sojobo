@@ -33,8 +33,14 @@ EditorBuildSettings:
     path: Assets/Scenes/theEnd.unity
     guid: ecc4f8e3044d9494080253ecc38db832
   - enabled: 1
+    path: Assets/Scenes/MainCave 1.unity
+    guid: 6107ddff20d05e540a24e8f38759511f
+  - enabled: 1
     path: Assets/Scenes/EndGameScene.unity
     guid: 1ea94d2278372334ea19e877f4932bda
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 0b905909268e7414281cf911694a30d1
   - enabled: 1
     path: Assets/Scenes/bigSkeleton.unity
     guid: 9e04088563ea4dc4b800633ae159f2d5

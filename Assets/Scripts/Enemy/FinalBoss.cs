@@ -7,6 +7,7 @@ public class FinalBoss : MonoBehaviour {
   public float teleportDelay;
   public float teleportEndDelay;
   public float returnDelay;
+  public float stunTime;
 
   [Header("Components")]
   public Animator anim;
@@ -24,6 +25,8 @@ public class FinalBoss : MonoBehaviour {
   bool Attack = true;
   int random;
 
+  bool shouldStun;
+
   void Start() {
     InvokeRepeating("attackLoop", 5f, 5f);
   }
@@ -34,16 +37,30 @@ public class FinalBoss : MonoBehaviour {
   }
 
   IEnumerator teleport() {
+    GetComponent<SpriteRenderer>().flipX = false;
+    rigidbody.velocity = new Vector2(0, 0);
     explosionCollided = false;
     collider.enabled = false;
-    anim.SetTrigger("teleport");
-    random = Random.Range(0, 3);
+    
+    if (!shouldStun) {
+      anim.SetTrigger("teleport");
+      random = Random.Range(0, 3);
 
-    yield return new WaitForSeconds(teleportDelay);
+      yield return new WaitForSeconds(teleportDelay);
 
-    transform.position = teleporters[random].position;
+      transform.position = teleporters[random].position;
 
-    StartCoroutine(attack());
+      StartCoroutine(attack());
+    } else if (shouldStun) {
+      print("stunned");
+
+      yield return new WaitForSeconds(stunTime);
+
+      print("time is over my friend");
+      shouldStun = false;
+      // attackLoop();
+      // StartCoroutine(recall());
+    }
   }
 
   IEnumerator attack() {
@@ -65,11 +82,13 @@ public class FinalBoss : MonoBehaviour {
           if (Player.position.x >= -2.95f) {
             rigidbody.velocity = new Vector2(dashSpeed, 0);
           } else {
+            GetComponent<SpriteRenderer>().flipX = true;
             rigidbody.velocity = new Vector2(-dashSpeed, 0);
           }
           break;
 
         case 2: 
+          GetComponent<SpriteRenderer>().flipX = true;
           rigidbody.velocity = new Vector2(-dashSpeed, 0);
           break;
       }
@@ -89,6 +108,7 @@ public class FinalBoss : MonoBehaviour {
     if (other.collider.CompareTag("ground")) {
       rigidbody.velocity = new Vector2(0, 0);
       collider.enabled = false;
+      shouldStun = true;
     }
   }
 }

@@ -18,9 +18,9 @@ public class PlayerData
         position[1] = player.transform.position.y;
        position[2] = player.transform.position.z;
 
-        health = player.health;
+        health = PlayerBehaviour.health;
         coin = player.coin;
-        strength = player.strength;
+        strength = PlayerBehaviour.strength;
         
     }
     

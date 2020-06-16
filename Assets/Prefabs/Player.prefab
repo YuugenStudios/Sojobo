@@ -40,7 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7559121980098945576}
   - component: {fileID: 7559121980098945578}
-  - component: {fileID: 7559121980098945579}
+  - component: {fileID: 7337123931881741166}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7559121980098945579
+--- !u!114 &7337123931881741166
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -83,38 +83,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 7559121980098945577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
+  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_LookaheadTime: 0
-  m_LookaheadSmoothing: 10
-  m_LookaheadIgnoreY: 0
+  m_BindingMode: 1
+  m_FollowOffset: {x: 0, y: 2.0454464, z: -10}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
-  m_ScreenX: 0.5
-  m_ScreenY: 0.5
-  m_CameraDistance: 10
-  m_DeadZoneWidth: 0
-  m_DeadZoneHeight: 0
-  m_DeadZoneDepth: 0
-  m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 0.8
-  m_BiasX: 0
-  m_BiasY: 0
-  m_CenterOnActivate: 1
-  m_GroupFramingMode: 2
-  m_AdjustmentMode: 0
-  m_GroupFramingSize: 0.8
-  m_MaxDollyIn: 5000
-  m_MaxDollyOut: 5000
-  m_MinimumDistance: 1
-  m_MaximumDistance: 5000
-  m_MinimumFOV: 3
-  m_MaximumFOV: 60
-  m_MinimumOrthoSize: 1
-  m_MaximumOrthoSize: 5000
+  m_AngularDampingMode: 0
+  m_PitchDamping: 0
+  m_YawDamping: 0
+  m_RollDamping: 0
+  m_AngularDamping: 0
 --- !u!1 &7559121980743548129
 GameObject:
   m_ObjectHideFlags: 0
@@ -140,7 +121,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7559121980743548129}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.9011407}
+  m_LocalPosition: {x: 0, y: 2.749999, z: -1.9011407}
   m_LocalScale: {x: 1.3444493, y: 1.3444493, z: 0.19011407}
   m_Children:
   - {fileID: 7559121980098945576}
@@ -198,10 +179,10 @@ GameObject:
   - component: {fileID: 7757755688030472301}
   - component: {fileID: 7757755688030472288}
   - component: {fileID: 7757755688030472277}
-  - component: {fileID: 7757755688030472302}
   - component: {fileID: 7757755688030472300}
   - component: {fileID: 7757755688030472290}
   - component: {fileID: 7757755688030472291}
+  - component: {fileID: 4522915140839782872}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -381,34 +362,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 7757755688030472298}
+  jumpCount: 2
   jumpForce: 750
-  coin: 0
-  strength: 0
-  health: 0
+  knockbackForce: 2
+  MaxStrength: 100
   MaxHealth: 100
+  lifeBar: {fileID: 0}
+  magicBar: {fileID: 0}
+  isDead: 0
+  coin: 0
   layerSave:
     serializedVersion: 2
     m_Bits: 0
-  anim: {fileID: 7757755688030472301}
---- !u!114 &7757755688030472302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7757755688030472276}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4257ee18147eba0498084b77e71d7409, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  line: {fileID: 7757755689198028361}
-  distance: 10
-  mask:
+  layerBoss:
     serializedVersion: 2
-    m_Bits: 256
-  step: 0.2
-  maxDistance: 1
+    m_Bits: 0
+  hasDoubleJump: 0
+  anim: {fileID: 7757755688030472301}
+  musicaBoss: {fileID: 0}
 --- !u!114 &7757755688030472300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -462,6 +433,22 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   SwordDamage: 20
+--- !u!114 &4522915140839782872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7757755688030472276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aa460e7ca729e4a9beb7bfd8a274d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dashSpeed: 10
+  rigidbody: {fileID: 7757755688030472298}
+  dashKey: 99
+  animator: {fileID: 7757755688030472301}
 --- !u!1 &7757755689198028360
 GameObject:
   m_ObjectHideFlags: 0
