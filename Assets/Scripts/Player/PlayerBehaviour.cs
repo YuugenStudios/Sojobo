@@ -24,15 +24,25 @@ public class PlayerBehaviour : MonoBehaviour
 
   public int coin;
   public LayerMask layerSave;
+  public LayerMask layerBoss;
 
+<<<<<<< HEAD
   [Header("Upgrade")] 
     static public bool hasDoubleJump = false;
     static public bool hasBoneSword = true;
     static public bool hasFlamerSword = false;
+=======
+
+    [Header("Upgrade")] 
+    public bool hasDoubleJump = false;
+>>>>>>> 5881607b9fffc9fff38fee6c8f3bae02c4f40e63
 
   [Header("animation")]
   public Animator anim;
-  void Start() {
+
+    [SerializeField] private AudioSource musicaBoss;
+
+    void Start() {
     health = MaxHealth;
     strength = MaxStrength;
     lifeBar.setMaxHealth(MaxHealth);
@@ -64,8 +74,18 @@ public class PlayerBehaviour : MonoBehaviour
       Debug.Log("Salvo!");
     }
 
+<<<<<<< HEAD
     dead();
   }
+=======
+        RaycastHit2D rayBoss = Physics2D.Raycast(transform.position, Vector2.down, 2, layerBoss);
+        if (rayBoss)
+        {
+            musicaBoss.Play();
+        }
+
+    }
+>>>>>>> 5881607b9fffc9fff38fee6c8f3bae02c4f40e63
 
   void OnCollisionEnter2D(Collision2D other) {
     if (other.gameObject.tag == "ground") {

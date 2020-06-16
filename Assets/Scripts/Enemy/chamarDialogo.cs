@@ -10,18 +10,19 @@ public class chamarDialogo : MonoBehaviour
 
     void Start()
     {
-        //(dialogo.GetComponent(SistemaDialogo) as MonoBehaviour).enabled = false;
+        (dialogo.GetComponent(SistemaDialogo) as MonoBehaviour).enabled = false;
 
     }
 
 
-    void Update()
+    public void dialogoaa()
     {
         RaycastHit2D ray = Physics2D.Raycast(transform.position, Vector2.right, 1, playerLayer);
         RaycastHit2D ray2 = Physics2D.Raycast(transform.position, Vector2.left, 1, playerLayer);
 
         if (ray||ray2)
         {
+
             (dialogo.GetComponent(SistemaDialogo) as MonoBehaviour).enabled = true;
         }
     }
