@@ -17,6 +17,10 @@ public class PlayerBehaviour : MonoBehaviour
   public CapsuleCollider2D crawlCollider;
   public bool hurting = false;
 
+  [Header("Physics")]
+  public float knockbackDur;
+  public float knockbackRange;
+
   [Header("Save System + HealthBar")]
   public static int strength;
   public int MaxStrength = 100;
@@ -57,7 +61,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     inputSpeed = Input.GetAxis("Horizontal");
 
-    if (!Dash.dashing && !hurting) {
+    if (!Dash.dashing  && !hurting ) {
       rb.velocity = new Vector2(inputSpeed * speed, rb.velocity.y);
     }
 
@@ -107,33 +111,19 @@ public class PlayerBehaviour : MonoBehaviour
 
       if (other.gameObject.tag == "Oni") {
         health -= 30;
+        StartCoroutine(GetComponent<PlayerKnockback>().Knockback(knockbackDur, knockbackRange, transform.position));
 
-        KnockBack();
       } else if (other.gameObject.tag == "RedOni") {
         health -= 35;
+        StartCoroutine(GetComponent<PlayerKnockback>().Knockback(knockbackDur, knockbackRange, transform.position));
 
-        KnockBack();
       } else {
         health -= 15;
-        
-        KnockBack();
+        StartCoroutine(GetComponent<PlayerKnockback>().Knockback(knockbackDur, knockbackRange, transform.position));
       }         
     }
   }
-
-  void KnockBack() {
-    //play the animation of hurting
-    hurting = true;
-    print("bati");
-    if (inputSpeed < 0) {
-      rb.AddForce(new Vector2(-knockbackForce, knockbackForce));
-      hurting = false;
-    } else if (inputSpeed > 0 ) {
-      rb.AddForce(new Vector2(-knockbackForce, knockbackForce));
-      hurting = true;
-    }
-  }
-   
+  
 
   public void SavePlayer() {
     Save.SavePlayer(this);
