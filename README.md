@@ -21,7 +21,7 @@ his new skin he has to help restore Japan from the war he promoted to kill nobun
 ### Artists
 
 1. Igor Morôni - [Instagram](https://www.instagram.com/igormoroniy)
-2. Italo Lima = [Instagram] - (https://www.instagram.com/oo_italo)
+2. Italo Lima - [Instagram](https://www.instagram.com/oo_italo)
 3. Carlos Eduardo - [Behance](https://www.behance.net/dahora) - [Linkedin](https://www.linkedin.com/in/dahora/)
 
 ### Writers
