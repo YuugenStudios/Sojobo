@@ -27,3 +27,4 @@ his new skin he has to help restore Japan from the war he promoted to kill nobun
 ### Writers
 
 1. Pedro Novaes - [GitHub](https://github.com/henrey22) - [Linkedin](https://www.linkedin.com/in/pedro-novaes-2258211ab/)
+2. Gabriel Marvin
