@@ -3,7 +3,7 @@
 ## About the project
 
 Sojobo is a game made in the [Metroid Vania Game Jam](https://itch.io/jam/metroidvania-month-8). This was the first project of the team [Yuugen Studios](https://www.instagram.com/yuugenstudio/?hl=pt-br)
-in this project we had our first experience making a game in a short period, this is the first project but not the last project of the Studio, more better then this one will come.
+in this project we had our first experience making a game in a short period, this is the first project but not the last project of the Studio, more stuff better then this one will come.
 
 ## Plot
 
